@@ -6,7 +6,7 @@ mycursor=mydb.cursor()
 #2 mycursor.execute("show databases")
 #3 for db in mycursor:
 #3    print(db)
-
+#temp as test
 mycursor.execute("CREATE TABLE students (name VARCHAR(255), age INTEGER(10))")
 mycursor.execute("show tables")
 for tb in mycursor:
